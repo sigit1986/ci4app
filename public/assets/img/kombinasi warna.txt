@@ -1,0 +1,5 @@
+.color1 {color: #0064d1;}
+.color2 {color: #3d86eb;}
+.color3 {color: #92aeff;}
+.color4 {color: #d0d8ff;}
+.color5 {color: #ffffff;}
