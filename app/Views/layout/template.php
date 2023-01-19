@@ -52,7 +52,6 @@
                     <li><a class="nav-link scrollto" href="#contact">Kontak</a></li>
                     <li class="dropdown"><a href="#"><span>Usulan Karis/Karsu</span> <i class="bi bi-chevron-down"></i></a>
                         <ul>
-                            <li><a href="#Usulan">Buat Usulan</a></li>
                             <li><a href="#Usulan">Cek Usulan</a></li>
                         </ul>
                     <li><a class="nav-link scrollto" href="#contact">Admin</a></li>

@@ -86,8 +86,10 @@
                             <input required="required" type="text">
                             <span>Username</span>
                             <i></i>
+                            <input class="button" type="button" value="Cari">
                         </div>
                     </form>
+
             </div>
         </div>
 
