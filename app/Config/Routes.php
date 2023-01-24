@@ -37,6 +37,7 @@ $routes->set404Override();
 // route since we don't have to scan directories.
 $routes->get('/', 'Home::index');
 $routes->get('/Pages', 'Pages::index');
+$routes->get('/Admin', 'Admin::index');
 
 /*
  * --------------------------------------------------------------------

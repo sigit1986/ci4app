@@ -54,7 +54,7 @@
                         <ul>
                             <li><a href="#Usulan">Cek Usulan</a></li>
                         </ul>
-                    <li><a class="nav-link scrollto" href="#contact">Admin</a></li>
+                    <li><a class="nav-link scrollto" href="/Admin/">Admin</a></li>
                 </ul>
                 <i class="bi bi-list mobile-nav-toggle"></i>
             </nav><!-- .navbar -->
@@ -105,7 +105,8 @@
                         <ul>
                             <li><i class="bx bx-chevron-right"></i> <a href="#hero">Beranda</a></li>
                             <li><i class="bx bx-chevron-right"></i> <a href="#about">Tentang Kami</a></li>
-                            <li><i class="bx bx-chevron-right"></i> <a href="#">Kontak</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#contact">Kontak</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#Usulan">Cek Usulan</a></li>
                         </ul>
                     </div>
                 </div>
