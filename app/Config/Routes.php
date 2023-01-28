@@ -37,8 +37,11 @@ $routes->set404Override();
 // route since we don't have to scan directories.
 $routes->get('/', 'Home::index');
 $routes->get('/Pages', 'Pages::index');
-$routes->get('/Login', 'Login::index');
-$routes->get('/Admin', 'Admin::index');
+$routes->get('/Login/logout', 'Login::logout');
+$routes->post('/Login/', 'Login::index');
+$routes->get('/Login', 'Login::index', ['filters' => 'khusutamu']);
+$routes->get('/Admin', 'Admin::index', ['filters' => 'khususadmin']);
+
 
 /*
  * --------------------------------------------------------------------

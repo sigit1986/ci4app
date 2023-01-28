@@ -32,15 +32,22 @@
               </div>
               <h4>Halo! mari kita mulai</h4>
               <h6 class="font-weight-light">Masuk untuk melanjutkan.</h6>
-              <form class="pt-3">
+              <?php if (session()->getFlashdata('error')) { ?>
+                <div class="alert alert-danger">
+                  <?php echo session()->getFlashdata('error') ?>
+                </div>
+              <?php } ?>
+              <form class="pt-3" action="" method="post">
                 <div class="form-group">
-                  <input type="email" class="form-control form-control-lg" id="exampleInputEmail1" placeholder="Nama Pengguna">
+                  <input type="text" name="username" class="form-control form-control-lg" id="exampleInputEmail1" placeholder="Nama Pengguna" value="<?php echo session()->getFlashdata('username') ?>">
+
                 </div>
                 <div class="form-group">
-                  <input type="password" class="form-control form-control-lg" id="exampleInputPassword1" placeholder="Kata Sandi">
+                  <input type="password" name="password" class="form-control form-control-lg" id="exampleInputPassword1" placeholder="Kata Sandi">
                 </div>
                 <div class="mt-3">
-                  <a class="btn btn-block btn-primary btn-lg font-weight-medium auth-form-btn" href="/Admin/">Masuk</a>
+                  <!-- <a class="btn btn-block btn-primary btn-lg font-weight-medium auth-form-btn" type="submit">Masuk</a> -->
+                  <button type="submit" class="btn btn-primary" name='Login' value="Login">Masuk</button>
                 </div>
               </form>
             </div>
